@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6AC31C71E027F11008C1672 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AC31C61E027F11008C1672 /* AppDelegate.swift */; };
+		A6AC31C91E027F11008C1672 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AC31C81E027F11008C1672 /* ViewController.swift */; };
+		A6AC31CC1E027F11008C1672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AC31CA1E027F11008C1672 /* Main.storyboard */; };
+		A6AC31CE1E027F11008C1672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6AC31CD1E027F11008C1672 /* Assets.xcassets */; };
+		A6AC31D11E027F11008C1672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AC31CF1E027F11008C1672 /* LaunchScreen.storyboard */; };
+		A6AC31DC1E027F11008C1672 /* BurredViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AC31DB1E027F11008C1672 /* BurredViewTests.swift */; };
+		A6AC31E71E027F11008C1672 /* BurredViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AC31E61E027F11008C1672 /* BurredViewUITests.swift */; };
+		A6AC31F61E027FEA008C1672 /* BlurredEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AC31F51E027FEA008C1672 /* BlurredEffect.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6AC31D81E027F11008C1672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6AC31BB1E027F11008C1672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6AC31C21E027F11008C1672;
+			remoteInfo = BurredView;
+		};
+		A6AC31E31E027F11008C1672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6AC31BB1E027F11008C1672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6AC31C21E027F11008C1672;
+			remoteInfo = BurredView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6AC31C31E027F11008C1672 /* BurredView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurredView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6AC31C61E027F11008C1672 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6AC31C81E027F11008C1672 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6AC31CB1E027F11008C1672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6AC31CD1E027F11008C1672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6AC31D01E027F11008C1672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6AC31D21E027F11008C1672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6AC31D71E027F11008C1672 /* BurredViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurredViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6AC31DB1E027F11008C1672 /* BurredViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurredViewTests.swift; sourceTree = "<group>"; };
+		A6AC31DD1E027F11008C1672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6AC31E21E027F11008C1672 /* BurredViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurredViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6AC31E61E027F11008C1672 /* BurredViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurredViewUITests.swift; sourceTree = "<group>"; };
+		A6AC31E81E027F11008C1672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6AC31F51E027FEA008C1672 /* BlurredEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurredEffect.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6AC31C01E027F11008C1672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AC31D41E027F11008C1672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AC31DF1E027F11008C1672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6AC31BA1E027F11008C1672 = {
+			isa = PBXGroup;
+			children = (
+				A6AC31C51E027F11008C1672 /* BurredView */,
+				A6AC31DA1E027F11008C1672 /* BurredViewTests */,
+				A6AC31E51E027F11008C1672 /* BurredViewUITests */,
+				A6AC31C41E027F11008C1672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6AC31C41E027F11008C1672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6AC31C31E027F11008C1672 /* BurredView.app */,
+				A6AC31D71E027F11008C1672 /* BurredViewTests.xctest */,
+				A6AC31E21E027F11008C1672 /* BurredViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6AC31C51E027F11008C1672 /* BurredView */ = {
+			isa = PBXGroup;
+			children = (
+				A6AC31F41E027FEA008C1672 /* Resource */,
+				A6AC31C61E027F11008C1672 /* AppDelegate.swift */,
+				A6AC31C81E027F11008C1672 /* ViewController.swift */,
+				A6AC31CA1E027F11008C1672 /* Main.storyboard */,
+				A6AC31CD1E027F11008C1672 /* Assets.xcassets */,
+				A6AC31CF1E027F11008C1672 /* LaunchScreen.storyboard */,
+				A6AC31D21E027F11008C1672 /* Info.plist */,
+			);
+			path = BurredView;
+			sourceTree = "<group>";
+		};
+		A6AC31DA1E027F11008C1672 /* BurredViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6AC31DB1E027F11008C1672 /* BurredViewTests.swift */,
+				A6AC31DD1E027F11008C1672 /* Info.plist */,
+			);
+			path = BurredViewTests;
+			sourceTree = "<group>";
+		};
+		A6AC31E51E027F11008C1672 /* BurredViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6AC31E61E027F11008C1672 /* BurredViewUITests.swift */,
+				A6AC31E81E027F11008C1672 /* Info.plist */,
+			);
+			path = BurredViewUITests;
+			sourceTree = "<group>";
+		};
+		A6AC31F41E027FEA008C1672 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A6AC31F51E027FEA008C1672 /* BlurredEffect.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6AC31C21E027F11008C1672 /* BurredView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6AC31EB1E027F11008C1672 /* Build configuration list for PBXNativeTarget "BurredView" */;
+			buildPhases = (
+				A6AC31BF1E027F11008C1672 /* Sources */,
+				A6AC31C01E027F11008C1672 /* Frameworks */,
+				A6AC31C11E027F11008C1672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BurredView;
+			productName = BurredView;
+			productReference = A6AC31C31E027F11008C1672 /* BurredView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6AC31D61E027F11008C1672 /* BurredViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6AC31EE1E027F11008C1672 /* Build configuration list for PBXNativeTarget "BurredViewTests" */;
+			buildPhases = (
+				A6AC31D31E027F11008C1672 /* Sources */,
+				A6AC31D41E027F11008C1672 /* Frameworks */,
+				A6AC31D51E027F11008C1672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6AC31D91E027F11008C1672 /* PBXTargetDependency */,
+			);
+			name = BurredViewTests;
+			productName = BurredViewTests;
+			productReference = A6AC31D71E027F11008C1672 /* BurredViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6AC31E11E027F11008C1672 /* BurredViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6AC31F11E027F11008C1672 /* Build configuration list for PBXNativeTarget "BurredViewUITests" */;
+			buildPhases = (
+				A6AC31DE1E027F11008C1672 /* Sources */,
+				A6AC31DF1E027F11008C1672 /* Frameworks */,
+				A6AC31E01E027F11008C1672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6AC31E41E027F11008C1672 /* PBXTargetDependency */,
+			);
+			name = BurredViewUITests;
+			productName = BurredViewUITests;
+			productReference = A6AC31E21E027F11008C1672 /* BurredViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6AC31BB1E027F11008C1672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "ower[]";
+				TargetAttributes = {
+					A6AC31C21E027F11008C1672 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3ZG7RQH8M7;
+						ProvisioningStyle = Automatic;
+					};
+					A6AC31D61E027F11008C1672 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3ZG7RQH8M7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6AC31C21E027F11008C1672;
+					};
+					A6AC31E11E027F11008C1672 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3ZG7RQH8M7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6AC31C21E027F11008C1672;
+					};
+				};
+			};
+			buildConfigurationList = A6AC31BE1E027F11008C1672 /* Build configuration list for PBXProject "BurredView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6AC31BA1E027F11008C1672;
+			productRefGroup = A6AC31C41E027F11008C1672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6AC31C21E027F11008C1672 /* BurredView */,
+				A6AC31D61E027F11008C1672 /* BurredViewTests */,
+				A6AC31E11E027F11008C1672 /* BurredViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6AC31C11E027F11008C1672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6AC31D11E027F11008C1672 /* LaunchScreen.storyboard in Resources */,
+				A6AC31CE1E027F11008C1672 /* Assets.xcassets in Resources */,
+				A6AC31CC1E027F11008C1672 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AC31D51E027F11008C1672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AC31E01E027F11008C1672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6AC31BF1E027F11008C1672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6AC31C91E027F11008C1672 /* ViewController.swift in Sources */,
+				A6AC31C71E027F11008C1672 /* AppDelegate.swift in Sources */,
+				A6AC31F61E027FEA008C1672 /* BlurredEffect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AC31D31E027F11008C1672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6AC31DC1E027F11008C1672 /* BurredViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AC31DE1E027F11008C1672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6AC31E71E027F11008C1672 /* BurredViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6AC31D91E027F11008C1672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6AC31C21E027F11008C1672 /* BurredView */;
+			targetProxy = A6AC31D81E027F11008C1672 /* PBXContainerItemProxy */;
+		};
+		A6AC31E41E027F11008C1672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6AC31C21E027F11008C1672 /* BurredView */;
+			targetProxy = A6AC31E31E027F11008C1672 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6AC31CA1E027F11008C1672 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6AC31CB1E027F11008C1672 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6AC31CF1E027F11008C1672 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6AC31D01E027F11008C1672 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6AC31E91E027F11008C1672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6AC31EA1E027F11008C1672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6AC31EC1E027F11008C1672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ZG7RQH8M7;
+				INFOPLIST_FILE = BurredView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ower--.BurredView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A6AC31ED1E027F11008C1672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ZG7RQH8M7;
+				INFOPLIST_FILE = BurredView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ower--.BurredView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A6AC31EF1E027F11008C1672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3ZG7RQH8M7;
+				INFOPLIST_FILE = BurredViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ower--.BurredViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurredView.app/BurredView";
+			};
+			name = Debug;
+		};
+		A6AC31F01E027F11008C1672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3ZG7RQH8M7;
+				INFOPLIST_FILE = BurredViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ower--.BurredViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurredView.app/BurredView";
+			};
+			name = Release;
+		};
+		A6AC31F21E027F11008C1672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3ZG7RQH8M7;
+				INFOPLIST_FILE = BurredViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ower--.BurredViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BurredView;
+			};
+			name = Debug;
+		};
+		A6AC31F31E027F11008C1672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3ZG7RQH8M7;
+				INFOPLIST_FILE = BurredViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ower--.BurredViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BurredView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6AC31BE1E027F11008C1672 /* Build configuration list for PBXProject "BurredView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6AC31E91E027F11008C1672 /* Debug */,
+				A6AC31EA1E027F11008C1672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6AC31EB1E027F11008C1672 /* Build configuration list for PBXNativeTarget "BurredView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6AC31EC1E027F11008C1672 /* Debug */,
+				A6AC31ED1E027F11008C1672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6AC31EE1E027F11008C1672 /* Build configuration list for PBXNativeTarget "BurredViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6AC31EF1E027F11008C1672 /* Debug */,
+				A6AC31F01E027F11008C1672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6AC31F11E027F11008C1672 /* Build configuration list for PBXNativeTarget "BurredViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6AC31F21E027F11008C1672 /* Debug */,
+				A6AC31F31E027F11008C1672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6AC31BB1E027F11008C1672 /* Project object */;
+}

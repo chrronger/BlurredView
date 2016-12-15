@@ -1,1 +1,2 @@
 # BlurredView
+![image](./blurr)
