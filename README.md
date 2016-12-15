@@ -1,2 +1,2 @@
 # BlurredView
-![image](./blurr)
+![image](./blurr.png)
